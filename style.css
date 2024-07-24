@@ -1,0 +1,18 @@
+body {
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+}
+
+.cursor-image {
+    position: absolute;
+    pointer-events: none;
+    transform: translate(-50%, -50%);
+    width: auto;
+    height: 150px;
+    transition: opacity 1s;
+}
+
+.fade-out {
+    opacity: 0;
+}
