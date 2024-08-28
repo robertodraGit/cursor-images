@@ -1,11 +1,7 @@
-var images = [
-    'assets/1.png',
-    'assets/2.png',
-    'assets/3.png',
-    'assets/4.png',
-    'assets/5.png',
-    'assets/6.png',
-];
+var images = [];
+for (var index = 0; index < 16; index++) {
+    images.push("assets/".concat(index, ".png"));
+}
 var currentImageIndex = 0;
 var lastX = 0;
 var lastY = 0;

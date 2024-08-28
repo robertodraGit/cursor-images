@@ -1,11 +1,8 @@
-const images: string[] = [
-    'assets/1.png',
-    'assets/2.png',
-    'assets/3.png',
-    'assets/4.png',
-    'assets/5.png',
-    'assets/6.png',
-];
+const images: string[] = []
+
+for (let index = 0; index < 16; index++) {
+    images.push(`assets/${index}.png`)    
+}
 
 let currentImageIndex = 0;
 let lastX = 0;
